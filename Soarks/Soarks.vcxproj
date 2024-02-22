@@ -168,6 +168,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Soarks\Application.cpp" />
+    <ClCompile Include="Soarks\GameInstance.cpp" />
+    <ClCompile Include="Soarks\Screen.cpp" />
+    <ClCompile Include="Soarks\Utilities\Config.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Soarks\Application.h" />
+    <ClInclude Include="Soarks\GameInstance.h" />
+    <ClInclude Include="Soarks\Screen.h" />
+    <ClInclude Include="Soarks\Utilities\Config.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

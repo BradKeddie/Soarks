@@ -22,10 +22,42 @@
     <Filter Include="Soarks\Source Files">
       <UniqueIdentifier>{ae45fc0c-f701-4ad3-974f-a332d4e5c345}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Soarks\Header Files\Utilities">
+      <UniqueIdentifier>{bbe9f1b4-effb-499f-8943-c23d651d31c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Soarks\Source Files\Utilities">
+      <UniqueIdentifier>{97f427e3-343b-4c2b-8b4e-ae14107ac2b5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Soarks\Application.cpp">
+      <Filter>Soarks\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Soarks\Screen.cpp">
+      <Filter>Soarks\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Soarks\Utilities\Config.cpp">
+      <Filter>Soarks\Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Soarks\GameInstance.cpp">
+      <Filter>Soarks\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Soarks\Application.h">
+      <Filter>Soarks\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Soarks\Screen.h">
+      <Filter>Soarks\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Soarks\Utilities\Config.h">
+      <Filter>Soarks\Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Soarks\GameInstance.h">
+      <Filter>Soarks\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
